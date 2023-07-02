@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: 136325909517.dkr.ecr.us-east-1.amazonaws.com/payment
-  pullPolicy: IfNotPresent
+  repository: public.ecr.aws/x6k5w0n6/payment
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "4.0.0"
+  tag: "8.1.1"
 
 imagePullSecrets: []
 nameOverride: ""
